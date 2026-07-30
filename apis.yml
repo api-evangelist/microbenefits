@@ -1,7 +1,13 @@
 aid: microbenefits
 name: MicroBenefits
-description: MicroBenefits is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: MicroBenefits is a workforce-engagement and HR technology company, backed by 500
+  Global, that created CompanyIQ — a scalable mobile platform for improving engagement, learning,
+  and communication for factory and manufacturing workers, particularly across Asia. CompanyIQ
+  bundles Worker Voice (employee feedback and dialogue), Digital Learning (safety, rights, and
+  professional-development training), an Employee Portal (wage, hours, and benefits transparency),
+  and Business Intelligence workforce analytics, alongside professional and learning services.
+  The company operates a marketing and support presence but publishes no public developer API,
+  documentation, or specification surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/microbenefits/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://microbenefits.com/hubfs/Logos/favicon.ico
 tags:
 - Company
+- Human Resources
+- Employee Engagement
+- Workforce
+- Learning and Development
+- HR Technology
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://microbenefits.com
+- type: Blog
+  url: https://microbenefits.com/blog/
+- type: Support
+  url: https://companyiqhelp.zendesk.com/
+- type: PrivacyPolicy
+  url: https://microbenefits.com/privacy-policy.html
+- type: DomainSecurity
+  url: security/microbenefits-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
